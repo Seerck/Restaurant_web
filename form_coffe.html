@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/coffe.css">
+    <script src="jquery/jquery.min.js"></script>
+    <script src="js/form_coffe.js"></script>
+    <script src="js/coffe_paralax.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <title>Formulario de Compra</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="coffe.html" id="btn-acerca-de">Acerca de</a>
+                <a href="coffe.html" id="btn-menu">Menu</a>
+                <a href="carta_coffe.html" id="btn-galeria">Galeria</a>
+                <a href="coffe.html" id="btn-ubicacion">Ubicacion</a>
+                <a href="carta_coffe.html" id="btn-carta">Carta</a>
+            </nav>
+            
+            <div class="textos">
+                <h1 class="nombre">Cafe del <span>10</span></h1>
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- titulo del formulario -->
+        <div class="row mt-5">
+            <div class="col">
+                <h1 class="text-center">Formulario de compra</h1>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col">
+                <form action="">
+
+                    <!-- fila nombre y apellido -->
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                        </div>
+
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="apellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                        </div>
+                    </div>
+
+                    <!-- fila direccion y numero de casa -->
+                    <div class="row mt-3">
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="direccion" class="form-label">Direccion</label>
+                            <input type="text" class="form-control" id="direccion" placeholder="Combate de Las Coimas 206, San Felipe, Valparaíso">
+                        </div>
+
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="apellido" class="form-label">Numero de casa/departamento</label>
+                            <input type="text" class="form-control" id="numero_casa" placeholder="#11">
+                        </div>
+                    </div>
+
+                    <!-- fila correo y telefono -->
+                    <div class="row mt-3">
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="correo" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="correo" placeholder="python_coorps@gmail.com">
+                        </div>
+
+                        <div class="col-12 col-md-6 mb-3">
+                            <label for="telefono" class="form-label">Telefono</label>
+                            <input type="telefono" class="form-control" id="telefono" placeholder="+56953522747">
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-12 col-md-6 mt-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" class="form-control" style="max-width: 700px; max-height: 150px; min-height: 150px;"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            <input type="submit" id="enviar" class="btn btn-primary" value="Enviar">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class="mt-5">
+        <div class="contenedor">
+            <div class="copyright">
+                <p>Copyright serck @ 2023</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
